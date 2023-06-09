@@ -9,9 +9,6 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 
-
-
-
 const PostCard = ({post, index}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,7 +28,7 @@ const PostCard = ({post, index}) => {
         </div>
         <Link to={'/' + post.slug.current}>
           <div className='mt-5'>
-            <h3 className='text-[#915EFF] font-bold text-[18px] truncate'>{post.title}</h3>
+            <h3 className='text-[#915EFF] font-bold text-[18px] '>{post.title.slice(0,35)}...</h3>
             <p className='mt-2 text-secondary text-[14px]'>{post.publishedAt}</p>
           </div>
         </Link>
@@ -39,6 +36,8 @@ const PostCard = ({post, index}) => {
     </motion.div>
   );
 };
+
+
 
 
 
@@ -88,4 +87,6 @@ return (
 };
 
 export default SectionWrapper(Blogs, "blogs");
+
+
 

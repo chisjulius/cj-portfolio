@@ -74,7 +74,7 @@ I try to build web apps to keep my skills and github as updated as possible,
   watching movies, or hanging out with friends.
 Previously, i worked with 3REEN an e-commerce marketplace with new ideas and insights that would make online 
 shopping experience as close to physical shoppping as possible.
-Interested in working with me? Get in touch and i'd be happy to talk to you.
+Interested in working with me? <a href='#contact' className="text-[#915EFF]">get in touch</a> and i'd be happy to talk to you.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
