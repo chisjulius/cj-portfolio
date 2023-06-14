@@ -161,7 +161,7 @@ import {
     {
       name: "Timer App",
       description:
-        "An app that counts your time like never before. It is simple, reliable, and perfect cos you can add every timing situation.",
+        "An app that counts your time like never before.",
       tags: [
         {
           name: "react",
@@ -178,7 +178,7 @@ import {
     {
       name: "Quote Machine",
       description:
-        "A machine which has over hundreds of quote content in it and was built to get my hands dirty. feel free to check it out and hope you d' like it.",
+        "A machine which has over hundreds of quote content in it.",
       tags: [
         {
           name: "react",
@@ -199,7 +199,7 @@ import {
     {
       name: "Mern Stack",
       description:
-        "A special site that allows users to post interesting events that happened in their life. This site helped me master node js and i trust you gonna like it",
+        "A special site that allows users to post interesting events about their life",
       tags: [
         {
           name: "react",
@@ -225,7 +225,7 @@ import {
     {
       name: "Movie Gallery",
       description:
-        "A special site that allows users to post interesting events that happened in their life. This site helped me master node js and i trust you gonna like it",
+        "A beautifull gallery about recent and most rated movies",
       tags: [
         {
           name: "react",
@@ -247,7 +247,7 @@ import {
     {
       name: "City Tours",
       description:
-        "A site that displays cities i would like to visit in the nearby future. I stored them in an array, mapped through them and displayed them.",
+        "A site that displays cities i would like to visit in the nearby future.",
       tags: [
         {
           name: "react",
@@ -269,7 +269,7 @@ import {
     {
       name: "Todo App",
       description:
-        "A todo app i built to solidify the knowledge i gained from my first react app. It helped me in learning how to convert class based components to function based.",
+        "A todo app i built to solidify my react knowledge.",
       tags: [
         {
           name: "react",
