@@ -220,7 +220,7 @@ import {
   
       ],
       image: mern,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://cjmernstack.netlify.app",
     },
     {
       name: "Movie Gallery",

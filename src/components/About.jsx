@@ -63,20 +63,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px]  leading-[30px]'
       >
-My name is Chisom Julius from Nigeria.
-I'm a dedicated javascript full-stack developer with a keen eye for details, 
-and a determination to deliver the very highest quality.
-The main areas of my expertise are HTML(5), CSS(3), Javascript(react, jQuery, node js), 
-and some cool collaborative tools like git and slack. 
-I use Netlify and Heroku as my choice of deployments and my preferred CMS is sanity.io.
-I try to build web apps to keep my skills and github as updated as possible,
- and in my free times you can find me reading medical books, playing football,
-  watching movies, or hanging out with friends.
-Previously, i worked with 3REEN an e-commerce marketplace with new ideas and insights that would make online 
-shopping experience as close to physical shoppping as possible.
-Interested in working with me? <a href='#contact' className="text-[#915EFF]">get in touch</a> and i'd be happy to talk to you.
+        My name is Chisom Julius from Nigeria.
+        I'm a dedicated javascript full-stack developer with a keen eye for details, 
+        and a determination to deliver the very highest quality.
+        The main areas of my expertise are HTML(5), CSS(3), Javascript(react, jQuery, node js), 
+        and some cool collaborative tools like git and slack. 
+        I use Netlify and Heroku as my choice of deployments and my preferred CMS is sanity.io.
+        I try to build web apps to keep my skills and github as updated as possible,
+        and in my free times you can find me reading medical books, playing football,
+        watching movies, or hanging out with friends.
+        Previously, i worked with 3REEN an e-commerce marketplace with new ideas and insights that would make online 
+        shopping experience as close to physical shoppping as possible.
+        Interested in working with me? <a href='#contact' className="text-[#915EFF]">get in touch</a> and i'd be happy to talk to you.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='hidden sm:flex mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
