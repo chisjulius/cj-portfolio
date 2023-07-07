@@ -32,7 +32,7 @@ const Blogs = () => {
     }, []);
     
   const PostCard = posts.length ?(
-    posts.map((post, index) =>(
+    posts.map(post =>(
       <div>
         <div className='relative w-full h-[230px]' key={post.slug.current}>
           <img
