@@ -74,7 +74,7 @@ const Post =(props) =>{
                         </div>
                     </div>
                 </header>
-                <div className='py-5 px-10 '><BlockContent blocks ={post.body} serializers={serializers} projectId="lxiy1ehs" dataset="production" /></div>
+                <div className='py-5 px-10 break-words'><BlockContent blocks ={post.body} serializers={serializers} projectId="lxiy1ehs" dataset="production" /></div>
                 <div className="disqus bg-primary" id="disqus_thread"></div>
             </article>
         </main>
