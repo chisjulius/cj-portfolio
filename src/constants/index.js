@@ -24,6 +24,7 @@ import {
     city,
     todo,
     threejs,
+    site
   } from "../assets";
   
   export const navLinks = [
@@ -158,6 +159,23 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Formal Portfolio",
+      description:
+        "My previous site where you can find my works similar to this",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialize",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: site,
+      source_code_link: "chisomjulius.netlify.app",
+    },
     {
       name: "Timer App",
       description:

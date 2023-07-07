@@ -33,6 +33,8 @@ import movies from "./movies.jpg";
 import city from "./city.png";
 import todo from "./todo.jpg";
 import xavi from "./xavi.jpg";
+import site from "./site.png";
+
 
 
 export {
@@ -68,4 +70,5 @@ export {
   city,
   todo,
   xavi,
+  site
 };
