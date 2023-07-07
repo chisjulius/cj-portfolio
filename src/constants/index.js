@@ -162,7 +162,7 @@ import {
     {
       name: "Formal Portfolio",
       description:
-        "My previous site where you can find my works similar to this",
+        "My previous site where you can find my works similar to this, i felt it needed an update.",
       tags: [
         {
           name: "react",
@@ -174,12 +174,12 @@ import {
         },
       ],
       image: site,
-      source_code_link: "chisomjulius.netlify.app",
+      source_code_link: "https://chisomjulius.netlify.app",
     },
     {
       name: "Timer App",
       description:
-        "An app that counts your time like never before.",
+        "An app that counts your time like never before, It is simple, reliable, and user friendly.",
       tags: [
         {
           name: "react",
@@ -196,7 +196,7 @@ import {
     {
       name: "Quote Machine",
       description:
-        "A machine which has over hundreds of quote content in it.",
+        "A machine which has over hundreds of quote content in it and was built to get me fly.",
       tags: [
         {
           name: "react",
@@ -217,7 +217,7 @@ import {
     {
       name: "Mern Stack",
       description:
-        "A special site that allows users to post interesting events about their life",
+        "A special site that allows users to post interesting daily workouts they would like to do.",
       tags: [
         {
           name: "react",
@@ -243,7 +243,7 @@ import {
     {
       name: "Movie Gallery",
       description:
-        "A beautifull gallery about recent and most rated movies",
+        "A gallery that displays movies from TMDB. This project taught me how to make an API calls.",
       tags: [
         {
           name: "react",
@@ -265,7 +265,7 @@ import {
     {
       name: "City Tours",
       description:
-        "A site that displays cities i would like to visit in the nearby future.",
+        "A site that displays cities i would like to visit in the nearby future. Dubai is my favourite",
       tags: [
         {
           name: "react",
@@ -287,7 +287,7 @@ import {
     {
       name: "Todo App",
       description:
-        "A todo app i built to solidify my react knowledge.",
+        "I learned how to convert class based component to function based component with this App",
       tags: [
         {
           name: "react",
